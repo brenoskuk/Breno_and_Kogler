@@ -1,0 +1,4 @@
+fft 2D
+filtra padrao foto
+homomorfica
+aliasing

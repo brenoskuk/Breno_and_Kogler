@@ -1,0 +1,35 @@
+Exercicio 0 
+
+Fazer um programa que le a imagem da Lena e apresenta na tela a transposta dessa imagem (imagem girada de 90 graus no sentido anti-horario).
+
+
+Exercicio 1 
+
+1.1.Criar uma imagem de tamanho 256 x 256 de intensidade representada com 8 bits, contendo um degradê de tons de cinza na diagonal, começando com o tom 0 no pixel (0,0) e terminando com ton 255 no pixel (255,255).
+1.2.Mostrar essa imagem após ter sido criada (sem salvá-la).
+1.3.Obter (ainda dentro do mesmo programa) o histograma da imagem, usando a função que devolve o histograma (tratando a imagem como objeto do PIL:  nome_da_imagem.histogram())
+1.4.Calcular a entropia das intensidades dessa imagem e mostrar seu valor.
+
+Lembrete: cálculo da entropia
+entropia = soma (-log(h[i]*h[i])
+onde h[i] é o valor do histograma na intensidade i
+a soma é feita sobre todos valores de i de 0 a 255
+o logaritmo é na base 2 (cuidado com log de valores nulos !)
+
+
+Exercício 2
+
+Elaborar um programa que reduz o numero de bits usado para representar uma dada imagem através de uma transformação de tons de cinza que remapeia os valores das intensidades entre 0 e 255 para um intervalo de 0 a d.
+O valor d deve ser calculado em função de para quantos bits se deseja reduzir.
+O programa deve pedir ao usuario que entre o valor de bits desejado via teclado (use a função input).
+
+2.1.Ler a imagem da Lena
+2.2.Pedir o valor de bits pelo teclado
+2.3.Aplicar a função que voce construiu acima para reduzir o numero de bits da imagem da Lena
+2.4.Exibir a imagem resultante, seu histograma e sua entropia.
+
+Exercício 3 (opcional)
+
+Repetir o exercicio anterio, equalizando a imagem após a redução do numero de bits. 
+Você observa que a entropia não se altera ?
+Para equalizar use a função do PIL que equaliza.

@@ -1,0 +1,2 @@
+correlacao
+unsharp mask

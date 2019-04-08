@@ -1,0 +1,10 @@
+Vc precisa ter os seguintes pacotes instalados no seu sistema:
+PIL, scypy, matplotlib
+
+
+from PIL import Image
+import matplotlib
+
+im = Image.open("arquivo de image")
+
+plot(im.histogram())

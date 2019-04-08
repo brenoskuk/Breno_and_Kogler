@@ -1,0 +1,10 @@
+Exercicio de Aplicação 1
+
+1.Prog1 - Elaborar um programa em python que executa as seguintes atividades:
+1.1.Ler a imagem 1 (Lena_standard.pgm)
+1.2.Exibir a imagem no display
+
+2.Prog2 - Acrescentar a seguinte atividade ao Prog 1:
+2.1.Elaborar o histograma da imagem e exibi-lo em um gráfico, usando os seguintes algoritmos:
+2.1.1.Eficiente: Varrer a imagem e, para cada pixel incrementar a posição de um vetor  de 256 entradas, cujo índice corresponde ao valor do pixel
+2.1.2.Ineficiente: Para cada tom de cinza, indexado pelo índice do vetor, varrer a imagem procurando todos os pixels cujo valor de intensidade corresponde ao tom de cinza  e guardar nessa entrada a contagem de pixels com esse valor

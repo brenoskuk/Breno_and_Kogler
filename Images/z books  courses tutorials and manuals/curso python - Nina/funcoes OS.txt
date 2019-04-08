@@ -1,0 +1,19 @@
+# carregar as funções relacionadas com o sistema operacional
+import os
+
+# para ver qual é o diretório corrente
+os.getcwd()
+
+# para mudar o diretório corrente para "Novo diretorio"
+os.chdir("Novo diretorio")
+# ou, simplesmente,
+cd Novo_diretorio
+
+# para ver o conteúdo do diretório corrente
+ls
+
+# carregar um programa com nome "problema5.py"
+import problema5
+
+# executar o programa (função main()) em "problema5.py"
+problema5.main()

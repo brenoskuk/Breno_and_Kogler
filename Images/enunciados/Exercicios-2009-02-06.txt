@@ -1,0 +1,15 @@
+1.Abra o arquivo gera-seno.py , execute-o e estude-o.
+
+2.Com base nesse arquivo, faça um programa que gera um vetor de 100 amostras espaçadas de dt=0.01 de uma função que possua 2 harmônicas, de amplitudes A1 = 1 e A2 = 2 e de frequencias f1 = 2 e f2 = 5 , respectivamente.
+
+3.Faça experimentos de produzir funções com diferentes composições harmônicas, a seu gosto e observe como fica a função f sintetizada.
+
+4.Estude no manual do numpy que se encontra em anexo, às paginas 180 e 181, as funções fft e fftshift.
+
+5.Abra o arquivo fft_seno.py , execute-o e estude-o.
+
+6.Com base nesse arquivo, modifique-o para produzir a transformada de Fourier da função sintetizada pelo problema 2.
+
+7.Faça um programa que extrai uma linha (ou coluna) de uma imagem e mostra o gráfico das intensidades. Teste com algumas das imagens dadas e veja o resultado.
+
+8.Modifique seu programa de cálculo da transformada de Fourier para que ele calcule e mostre o especro de amplitudes da TF da linha (ou coluna) extraida da imagem. Experimente com todas as imagens fornecidas para a aula de hoje e procure entender e explicar os resultados obtidos.

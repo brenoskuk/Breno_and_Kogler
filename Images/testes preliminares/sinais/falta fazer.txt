@@ -1,0 +1,6 @@
+teste pente2.py nao funciona por causa da funcao mod em sinal.py
+Verificar (usar a teste pente.py como referencia).
+A sinal.py deveria ser uma biblioteca compilada --> sinal.fyc.
+Porem ela nao consegue importar o nome mod do numpy.
+
+-------------------------------------------------------------------------

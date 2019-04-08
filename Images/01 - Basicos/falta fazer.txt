@@ -1,0 +1,6 @@
+Gera ruido
+LUT
+equaliza - com e sem PIL
+solarize: limiariza e depois inverte os que estao acima do limiar - ver PIL
+ops aritmeticas
+

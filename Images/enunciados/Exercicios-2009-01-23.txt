@@ -1,0 +1,28 @@
+Exercicio 1 
+
+Fazer um programa que le a imagem da Lena e pede para digitar o valor de um limiar entre 0 e 255 e produz como saída uma imagem binária limiarizada. Para apresentar a imagem, multiplique-s por algum valor maior que 127 (por exemplo, 220). Mostrar o histograma da imagem limiarizada.
+
+
+Exercicio 2 
+
+Elabore um programa que acha o limiar ótimo segundo o critério de Pun (máxima entropia total a posteriori). O programa deve apresentar como saída o valor do limiar e a imagem limiarizada, exibida como no problema anterior. Aplique à imagem da Lena.
+
+Lembrete: cálculo da entropia
+entropia = soma (-log(h[i]*h[i])
+onde h[i] é o valor do histograma na intensidade i
+a soma é feita sobre todos valores de i de 0 a 255
+o logaritmo é na base 2 (cuidado com log de valores nulos !)
+
+O algoritmo do método de Pun consiste em:
+-para cada tom de cinza L:
+	-calcular a entropia Ha da classe à esquerda de L
+	-calcular a entropia Hb da classe  à direita de L
+	-calcular a entropia a posteriori Ht = Ha + Hb
+-achar o máximo de Ht e fornecer o valor de L correspondente a Ht max.
+	
+
+Exercício 3
+
+Repetir a aplicação do programa para as demais imagens fornecidas.
+
+
